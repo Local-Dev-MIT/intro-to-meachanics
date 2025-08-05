@@ -1,0 +1,29 @@
+{
+  "term": "Spring",
+  "year": "2025",
+  "level": [
+    "Undergraduate"
+  ],
+  "topics": [],
+  "legacy_uid": "",
+  "instructors": {
+    "content": [],
+    "website": "intro-to-mechanics"
+  },
+  "course_image": {
+    "content": "",
+    "website": "intro-to-mechanics"
+  },
+  "course_title": "Intro to Mechanics",
+  "hide_download": false,
+  "mit_learn_topics": [],
+  "course_description": "This is an introduction to Newtonian Physics",
+  "department_numbers": [
+    "2"
+  ],
+  "extra_course_numbers": "",
+  "primary_course_number": "PHY100",
+  "learning_resource_types": [],
+  "site_uid": "00550c23-57b0-47b4-91d1-a29f5714a647",
+  "site_short_id": "intro-to-meachanics"
+}
