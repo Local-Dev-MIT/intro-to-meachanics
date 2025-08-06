@@ -5,58 +5,57 @@ draft: false
 title: Course Syllabus
 uid: 4ff32096-a3d7-429c-b946-960f8838ee9c
 ---
-## Overview
+Please answer all questions. Each short question is worth 10% of the grade and each long question is worth 30%. Good luck.
 
-This course will have a  final project --  a 5-10 page paper. There will be a first draft due in later April and the  final draft due the last week of classes.                                                          
-There are a few different kinds of papers. I'll describe some options here.                                                          
-Read over the different options and then send me an email with your thoughts about what you'd like to do for a  final project. I'll write back and try to help you pick out a project direction that you are interested in.    
+## Short Questions
 
-## Project types
+1. Suppose that   
+      
+    \\(Y(t) = \text{exp}(g_At)F(\text{exp}(g_Kt)K(t), \text{exp}(g_Lt)L(t))\\),   
+      
+    where \\(F\\) exhibits constant returns to scale. Suppose that \\(\dot{L}(t)/L(t) = n\\) and \\(\dot{K}(t) = sY(t)\\). Suppose also that \\(F\\) is not Cobb-Douglas (more specifically, suppose the share of labor is not constant as the effective capital-labor ratio \\(\text{exp}(g_K(t))K(t) / \text{exp}(g_L(t))L(t)\\) changes). Show that balanced growth, where output grows at a constant rate, is only possible if \\(g_K = g_A = 0\\).
+2. Consider the following overlapping generations model with competitive markets. There are \\(N\\) generations, each of which lives for two periods. Agents from generation \\(i\\) supply labor at time \\(t = i\\) and live off capital income at time \\(t = i + 1\\). The last generation \\(N\\) simply receives an exogenous rate of return \\(\bar{R}\\) on their savings at time \\(t = N +1\\). Is the competitive equilibrium of this economy Pareto optimal? Now consider the same economy with \\(N = \infty\\). Is the competitive equilibrium still Pareto optimal? Provide an economic intuition (no need for math) for your answer.
+3. Answer both parts:   
+      
+    - The fact that changes in the policies and institutions of countries has no effect on their long-run growth rate is a challenge to endogenous growth models. True or false?
+    - Endogenous technological change models imply that product market competition is welfare-reducing because, by reducing monopoly rents, it discourages technological change and economic growth. True or false?
+4. Consider an economy with two types of labor, \\(L\\) and \\(H\\). Whether an increase in the supply of \\(H\\) induces a change in technology in a direction that is further (relatively) biased towards that factor depends on the elasticity of substitution between \\(L\\) and \\(H\\) (where a change in technology relatively biased towards \\(H\\) increases the wage of \\(H\\) relative to that of \\(L\\) at given supplies of \\(L\\) and \\(H\\)). True or false?
 
-- Exploring a bigger problemss. On the homework and in lecture, I mentioned a number of bigger and more challenging problems. You could explore one of these as a final project. Some of these problems I have an idea how to do, and some are really open research problems. In your project, you don't necessarily have to solve the problem you're exploring { we can't really control that. But you should try some things and write up what you tried in a rigorous way. There is a list of possible problems below. 
-- Reading further into the literature. We have mentioned a number of topics that are related to projection theory that we don't have time to discuss in detail in class. You can read about one of them and write a survey about it. You could also start with one of the muddy issues from question 1, and your final project could be a survey paper explaining it better. You could work on the paper by a combination of thinking the issues through yourself and reading about them in the literature in different references. There is a list of possible reading ideas below. (Some projects might involve a combination of reading and exploring. That's certainly  fine.)s
+## Long Questions
 
-## Some Possible Questions to Explore
+**Problem 1.** Consider a variant of the neoclassical economy with preferences at time 0 given by
 
-- Contagious structures for projections. In class we used Plunnecke inequality and Ruzsa inequality to prove contagious structure for projections of \\(A \times A \subset \mathbb{F}\_p^2\\). Are there similar results for projections of an arbitrary set \\(X \subset \mathbb{F}\_q^2\\)? Here is a precise question. Suppose that \\(| \pi_t(X) | \le K |X|^{1/2}\\) for \\(t= 0, \infty, t_1\\), and \\(t_2\\). Does it follow that \\(| \pi_{t_1 + t_2} (X)| \le K^C |X|^{1/2}\\) for a universal constant \\(C\\)? (What \\(C\\) can you get?) Similarly for \\(|\pi_{t_1 t_2}(X)|\\) and \\(| \pi_{-t}(X)|\\). See Lecture 11. (Possible reference: Katz-Tao work on "sums differences")
-- Projections in algebraically independent directions. Suppose that \\(D = {0, 1, \infty, t_1, …, t_r} \subset \mathbb{R}\\).  Let \\(\pi_t(x_1, x_2) = x_1 + t x_2\\).  Let \\(X\\) be a finite subset of \\(\mathbb{R}^2\\).  Define 
+\\(\int_0^{\infty}\text{exp}(-{\rho}t)\frac{c(t)^{1-\theta}-1}{1-\theta}dt\\).
 
-\\[S_D(N) = \min_{|X| = N} \max_{t \in D} | \pi_t(X)|.\\]
+Population is constant at \\(L\\), and labor is supplied inelastically. The aggregate production function is given by
 
-> If \\(t_1, …, t_r\\) are algebraically independent over \\(\mathbb{Q}\\), what upper and lower bounds can you prove on \\(S_D(N)\\) (in terms of \\(N\\) and \\(r\\))?  Might want to start with \\(r=1\\).
+\\(F(K,L) = A_KK + A_LL^{1-\alpha}K^{\alpha}\\),
 
-- Optional question from pset 5, related to Bombieri-Vinogradov.  In pset 5, using the large sieve, we proved the following estimate.  If \\(X \subset [N]\\), then for 90 \\(\%\\) of \\(p \in P_{N^{1/2}}\\), 
+where \\(\alpha \in (0,1)\\) and \\(A_K > \rho + \delta\\), and capital depreciates at rate \\(\delta\\). Capital and labor markets are competitive.
 
-> **Equation 1.** \\(\Vert (\pi_p 1_X)<em>h^{*2} \Vert</em>{L^\infty(\mathbb{Z}_p)} \lessapprox |X|.\\)
+1. Derive the differential equation system that characterizes the evolution of the capital stock and consumption in equilibrium.
+2. Show that this economy generates sustained growth without technological change. What determines the asymptotic growth rate in this economy? \[Hint: conjecture an equilibrium in which the capital stock asymptotically grows at a constant rate \\(g > 0\\). Simplify the differential equation system obtained in part 2 under this conjecture. Solve the simplified system and verify that there is an asymptotic equilibrium with a constant growth rate.\] What additional condition do we need to impose to ensure that the equilibrium you have just characterized is meaningful?
+3. What happens if \\(L\\) grows at a constant rate.
+4. In what way does this type of growth fail to be a good approximation to the aggregate behavior of OECD countries.
 
-> This bound is sharp when \\(X\\) is an arithmetic progression of length \\(N^\alpha\\) with \\(\alpha < 1/2\\). But in this case, \\(\Vert 1_X^{*2} \Vert_{\ell^\infty}\\) is itself large.  Suppose that \\(X \subset [N]\\) with \\(|X| \sim N^{1/2}\\),  and suppose that \\(| 1_X^{<em>2} |</em>{L^\infty} \lessapprox 1\\). For most \\(p \in P_{N^{1/2}}\\), can we prove a bound for \\(| (\pi_p 1_X)^{<em>2}_h |</em>{L^\infty(\mathbb{Z}_p)}\\) which improves on Equation 1?
+**Problem 2.** Consider the following endogenous growth model. Population at time \\(t\\) is \\(L(t)\\) and grows at the constant rate \\(n\\) (i.e., \\(\dot{L}(t) = nL(t)\\)). All agents have preferences given by
 
-- Optional question from pset 4, related to the large sieve. To pursue this direction, it would be helpful to have a little background in restriction theory in Fourier analysis. In class, we used the large sieve to prove the following estimate.
+\\(\int_0^{\infty}\text{exp}(-{\rho}t)\frac{C(t)^{1-\theta}-1}{1-\theta}dt\\),
 
-> **Theorem 1.** *If* \\(X \subset [N]\\) *and* \\(| \pi_p(X) | \le (0.99) p\\) *for every* \\(p \in P_{N^{1/2}}\\)*,  then* \\(|X| \lessapprox N^{1/2}\\)
+where \\(C\\) is consumption dened over the final good of the economy. This good is produced as
 
-> This theorem is essentially sharp when \\(X\\) is the set of squares. We could explore what happens if we know \\(| \pi_p(X) \le (0.99) p\\) for every \\(p \in P_{N^\alpha}\\) for some other exponent \\(\alpha\\),  such as \\(\alpha = 1/4\\). Or we could explore what happens if we replace \\(| \pi_p(X)| \le (0.99) p\\) by a stronger bound like \\(|\pi_p(X)| \le N^{1/4}\\) for every \\(p \in P_{N^{1/2}}\\).
+\\(Y(t) = \left[\int_0^{N(t)}y(\nu,t)^{\beta}d{\nu}\right]^{1/{\beta}}\\),
 
-- Non-commutative projection theory. We have presented projection theory in the context of commutative groups. The setting is that we have a commutative group \\(G\\) and many homomorphisms \\(\pi_j: G \rightarrow H_j\\). Each homomorphism can be described by its kernel, \\(K_j\\).  So \\(\pi_j: G \rightarrow G / K_j\\).  Now suppose that \\(G\\) is a non-commutative group. Let \\(K_j\\) be a bunch of subgroups, and consider the maps \\(\pi_j G \rightarrow G / K_j\\). How much of what we discussed in class can be generalized to this setting? Might help to think in general or might help to pick a simple non-commutative group, such as \\(SL_2(\mathbb{F}_p)\\).  Projection theory for general commutative groups \\(G\\) is also a possible project to explore.
-- Something else that you think of.
+where \\(y(\nu,t)\\) is the amount of intermediate good \\(\nu\\) used in production at time \\(t\\) and \\(N(t)\\) denotes the number of intermediate goods available at time \\(t\\). The production function of each intermediate is
 
-## Some Reading Ideas
+\\(y(\nu,t) = l(\nu,t)\\)
 
-Reading on the central limit theorem for convex bodies. See         
-[https://www.ams.org/journals/tran/2003-355-12/S0002-9947-03-03085-X/S0002-9947-03-03085-X.pdf](https://www.ams.org/journals/tran/2003-355-12/S0002-9947-03-03085-X/S0002-9947-03-03085-X.pdf)         
-[https://arxiv.org/abs/math/0605014](https://arxiv.org/abs/math/0605014)
+where \\(l(\nu,t)\\) is labor allocated to this good at time \\(t\\). New goods are produced by allocating workers to the R&D process, with the production function
 
-The sum-product theorem in finite fields by Bourgain-Katz-Tao. We discussed many parts of this paper, but there is a little more to read to get the full sum-product theorem, saying that if \\(A \subset \mathbb{F}_p\\) with \\(|A| = p^s\\) and \\(0 < s < 1\\), then \\(\max(|A+ A|, |A \cdot A|) \ge p^s + \epsilon(s)\\). See        
-[https://arxiv.org/abs/math/0301343](https://arxiv.org/abs/math/0301343)
+\\(\dot{N}(t) = {\eta}N^{\phi}(t)L_R(t)\\)
 
-Plunnecke inequality.  Reading the older proof of Plunnecke-Ruzsa and comparing it to the slick proof that we saw in class. See        
-file:///Users/lguth/Downloads/978-1-4939-1601-6.pdf and references therein
+where \\(\phi \leq 1\\) and \\(L_R(t)\\) is labor allocated to R&D at time \\(t\\). So labor market clearing requires \\(\int_0^{N(t)}l(\nu,t)d\nu + L_R(t) = L(t)\\). Risk-neutral firms hire workers for R&D. A firm who discovers a new good becomes the monopoly supplier, with a perfectly and indefinitely enforced patent.
 
-Suppose that \\(\pi_p: \mathbb{Z}^d \rightarrow \mathbb{Z}_p^d\\) is reduction modulo \\(p\\).   Suppose that \\(A \subset \mathbb{Z}^d\\) and that \\(| \pi_p(A)|\\) is small for many primes \\(p\\).   The known examples of this phenomenon have a lot of algebraic and number theoretic structure.   The inverse problem for the large sieve asks whether all such examples have a lot of structure.   The most interesting work on the problem was done by Miguel Walsh,  and could be a good reading project. See        
-file:///Users/lguth/Downloads/00127094-1645788.pdf
-
-The Bombieri-Vinogradov theorem.  We discussed some of the ideas in class.  Try to fill in the details and perhaps compare your work with proofs in the literature.   For a source from the literature,  see the book by Iwaniec Kowalski or        
-[https://terrytao.wordpress.com/2015/01/10/254a-notes-3-the-large-sieve-and-the-bombieri-vinogradov-theorem/](https://terrytao.wordpress.com/2015/01/10/254a-notes-3-the-large-sieve-and-the-bombieri-vinogradov-theorem/)        
-(If you can't read that whole thing, google "Tao Bombieri Vinogradov" or let me know.)
-
-Something else that you think of.
+1. Characterize the BGP in the case where \\(\phi = 1\\) and \\(n = 0\\). Why does the long-run growth rate depend on \\(\theta\\)? Why does the growth rate depend on \\(L\\)? Do you find this plausible?
+2. Now suppose that \\(\phi = 1\\) and \\(n > 0\\). What happens? Interpret.
+3. Now characterize the BGP when \\(\phi &lt; 1</span&gt; and <span data-math="">n > 0\\). Does the growth rate depend on \\(L\\)? Does it depend on \\(\theta\\)? On \\(n\\)? Why? Do you think that the configuration \\(\phi &lt; 1</span&gt; and <span data-math="">n > 0\\) is more plausible than the one with \\(\phi = 1\\) and \\(n = 0\\)?
