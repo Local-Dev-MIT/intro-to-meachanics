@@ -25,7 +25,7 @@ Read over the different options and then send me an email with your thoughts abo
 
 > If \\(t\_1, …, t\_r\\) are algebraically independent over \\(\mathbb{Q}\\), what upper and lower bounds can you prove on \\(S\_D(N)\\) (in terms of \\(N\\) and \\(r\\))?  Might want to start with \\(r=1\\).
 
-- Optional question from pset 5, related to Bombieri-Vinogradov.  In pset 5, using the large sieve, we proved the following estimate.  If \\(X \subset [N]\\), then for 90 \\(\%\\) of \\(p \in P\_{N^{1/2}}\\), 
+- Optional question from pset 5, related to Bombieri-Vinogradov.  In pset 5, using the large sieve, we proved the following estimate.  If \\(X \subset [N]\\), then for 90 \\(\\%\\) of \\(p \in P\_{N^{1/2}}\\), 
 
 > **Equation 1.** \\(\Vert (\pi\_p 1\_X)\_h^{*2} \Vert\_{L^\infty(\mathbb{Z}\_p)} \lessapprox |X|.\\)
 
