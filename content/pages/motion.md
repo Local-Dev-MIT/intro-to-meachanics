@@ -5,8 +5,4 @@ draft: false
 title: Motion
 uid: 23470496-7979-4156-893f-b4451749ace9
 ---
-Yeah boi
-
- 
-
-An d onow more boii
+Yeah Boi
