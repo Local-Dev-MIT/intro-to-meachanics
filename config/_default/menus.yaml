@@ -1,0 +1,5 @@
+leftnav:
+- identifier: e4283d4e-8ebf-4362-a916-688ca31d24c5
+  name: S3
+  pageRef: /pages/page-to-s3
+  weight: 10
