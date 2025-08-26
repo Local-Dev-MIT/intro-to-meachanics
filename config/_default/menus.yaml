@@ -1,0 +1,10 @@
+leftnav:
+- identifier: e4283d4e-8ebf-4362-a916-688ca31d24c5
+  name: S3
+  pageRef: /pages/page-to-s3
+  weight: 10
+- identifier: 23470496-7979-4156-893f-b4451749ace9
+  name: motion
+  pageRef: /pages/motion
+  parent: e4283d4e-8ebf-4362-a916-688ca31d24c5
+  weight: 10
