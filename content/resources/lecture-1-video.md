@@ -20,7 +20,7 @@ video_files:
   video_thumbnail_file: ''
   video_transcript_file: ''
   video_transcript_resources:
-  - file: /courses/transcript.pdf
+  - file: /courses/phy100-intro-to-mechanics-spring-2025/transcript.pdf
     language: en
 video_metadata:
   source: youtube

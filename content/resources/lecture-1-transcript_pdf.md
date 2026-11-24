@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: /ol-ocw-studio-app-local/courses/transcript.pdf
+file: /ol-ocw-studio-app-local/courses/phy100-intro-to-mechanics-spring-2025/transcript.pdf
 file_size: 40
 file_type: application/pdf
 image_metadata:
