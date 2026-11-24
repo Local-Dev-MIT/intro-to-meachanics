@@ -3,7 +3,7 @@ body: ''
 content_type: resource
 draft: false
 file: /ol-ocw-studio-app-local/courses/phy100-intro-to-mechanics-spring-2025/pr3343-lecture-1_360p_16_9.mp4
-file_size: 50
+file_size: 2345
 file_type: video/mp4
 image_metadata:
   caption: ''
