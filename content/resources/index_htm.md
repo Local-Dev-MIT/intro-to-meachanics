@@ -1,8 +1,9 @@
 ---
 body: ''
 content_type: resource
+description: '[Handout](/courses/phy100-intro-to-mechanics-spring-2025/resources/handout)'
 draft: false
-file: /courses/phy100-intro-to-mechanics-spring-2025/index.htm
+file: /ol-ocw-studio-app-local/courses/phy100-intro-to-mechanics-spring-2025/index.htm
 file_size: 5128
 file_type: text/html
 image_metadata:
